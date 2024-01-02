@@ -1,11 +1,13 @@
 import Topbar from '../../componentes/Topbar';
-import Topomenu from '../../componentes/Topomenu';
+import Topo from '../../componentes/Topo';
 
 export default function Page() {
   return (
     <>
-      <Topbar />
-      <Topomenu />
+    <Topbar />
+    <header className="top-bar-banner bg-gradient-to-b from-cyan-400 to-blue-50">
+       <Topo/>
+    </header>
     </>
   );
 }
