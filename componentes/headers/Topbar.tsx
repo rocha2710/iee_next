@@ -14,8 +14,8 @@ const Topbar = () => {
         <span>Rua 16, Q33, C29 - Cohatrac Residencial Primavera</span>
       </div>
       <div className="col-span-1 flex items-center justify-end">
-        <FaInstagram size={24} />
-        <FaFacebook size={24} />
+        <span className="hover:bg-gradient-to-r from-pink-500 to-cyan-400 rounded"><FaInstagram size={24}  /></span>
+        <span className="ml-2 hover:bg-gradient-to-r from-blue-500 to-cyan-400 rounded"><FaFacebook size={24} /></span>
       </div>
     </div>
   );
